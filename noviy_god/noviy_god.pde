@@ -29,7 +29,7 @@ x += random(-1,1)*(z*0.03);
 Snowflake[] flakes; 
 void setup() { 
 size(1200,650); 
-file = new SoundFile (this, "C:/Users/DNS/Desktop/demoscena/mix.mp3"); 
+file = new SoundFile (this, "C:/processing projects/demoscena/mix.mp3"); 
 file.play(); 
 smooth(); 
 
